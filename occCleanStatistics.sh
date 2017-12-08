@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-#occCleanStatistics.sh v0.1
+# occCleanStatistics.sh v0.1
 # This program read OCC counters and return an easy output for analysis
 # 
 # Coded by Ricardo Zedan - ericzed
