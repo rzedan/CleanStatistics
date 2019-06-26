@@ -1,13 +1,13 @@
 #!/bin/bash
 #
-# occCleanStatistics.sh v0.1
-# This program read OCC counters and return an easy output for analysis
+# CleanStatistics.sh v0.2
+# This program read counters and return an easy output for analysis
 # 
 # Coded by Ricardo Zedan - ericzed
 # E-mail: ricardozedan@gmail.com
 #
 # Global variables:
-# Here the variables of OCC paths where is stored the counters
+# Here the variables of paths where is stored the counters
 
 count_path="/opt/occ/var/performance/"
 
