@@ -9,7 +9,8 @@
 # Global variables:
 # Here the variables of paths where is stored the counters
 
-count_path="/opt/occ/var/performance/"
+node=NULL #insert the node type here
+count_path="/opt/${node}/var/performance/"
 
 #
 # Functions 
