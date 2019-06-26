@@ -185,7 +185,7 @@ while getopts "pb:sc" opt ; do
             # Note: We need to check that we're still in bounds, and that
             # p1,p2 aren't flags and the real counters file exists. 
 	    # e.g.
-            # ./occCleanStatistics.sh -p 2017060100 -b
+            # ./CleanStatistics.sh -p 2017060100 -b
             # should error, and not set p2 to be -b.
 
             if [[ $((OPTIND+1)) > $# ]] || is_flag "$p1" || is_flag "$p2" && [[ $((OPTIND+1)) > $# ]] || is_file "$p1" || is_file "$p2"
